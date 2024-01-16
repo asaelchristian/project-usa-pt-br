@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="specialimages/favicon-pt-br.ico" type="image/x-icon">
+    <title>Como os EUA se tornaram uma superpotência mundial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Anton';
+    src: url('fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+
+:root{
+    --color1: #CB0303;
+    --color2: #060066;
+    --color3: #FFFFFF;
+
+    --font1: 'Bebas Neue', sans-serif;
+    --font2: 'Anton', sans-serif;
+    --font3: 'Roboto', sans-serif;
+    --font-footer: 'Poppins', sans-serif;
+}
+
+header{
+   background-color: var(--color2);
+   height: 130px;
+   padding-top: 20px;
+   padding-bottom: 45px;
+}
+
+header > h1{
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.371);
+}
+
+header p{
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 1.4em;
+    font-weight: normal;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.371);
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+#navegation{
+    background-color: var(--color2);
+}
+
+#navegation  li{
+    display: inline;
+    font-family: var(--font3);
+}
+
+#navegation a {
+    color: var(--color3);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+#navegation a:hover{
+    background-color: rgb(39, 52, 228); 
+    color: rgb(208, 225, 243);
+    border-radius: 10px; 
+    transition-duration: 0.5s;
+}
+
+
+
+main{
+    background-color: var(--color3);
+    min-width: 260px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+main article  h1{
+    font-family: var(--font2);
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 30px;
+}
+
+article p{
+    text-align: justify;
+    font-family: var(--font3);
+    font-weight: 500;
+    text-indent: 50px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+article h2{
+    font-family: var(--font2);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+article a{
+   text-decoration: none;
+   color: var(--color1);
+   font-weight: 700;
+}
+
+article a:hover{
+    text-decoration: underline;
+    color: var(--color2);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+figcaption{
+    font-family: var(--font3);
+    font-weight: normal;
+    background-color: rgb(227, 223, 223);
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--color2);
+    padding-left: 5px;
+}
+
+.video{
+    position: relative;
+    background-color: var(--color2);
+    margin: 0px -20px 0px -20px;
+    padding-bottom: 59%;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside section h2{
+    font-family: var(--font2);
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.links-sites > h3{
+    margin-top: 30px;
+    font-family: var(--font3); 
+    margin-bottom: 5px; 
+    font-size: 1em; 
+}
+
+.links-sites ul{
+   list-style-position: inside;
+   list-style-type: '→ ';
+}
+
+.links-sites ul li a{
+    color: var(--color1);
+    font-family: var(--font3);
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.links-sites a:hover{
+   color: var(--color2);
+}
+
+hr{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #E9F1F4;
+    padding: 70px 0px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-columns{
+    width: 22%;
+    padding: 0px 13px;
+}
+
+.footer-columns > h4{
+   font-size: 18px;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+   font-weight: 600;
+   position: relative;
+   color: var(--color2);
+}
+
+.footer-columns > h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--color1);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-columns ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-columns ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-columns ul li a:hover{
+    color: #14104f;
+    padding-left: 8px;
+}
+
+.footer-columns .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: var(--color2);
+    transition: all 0.5s ease;
+}
+
+.footer-columns .social-links a:hover{
+    color: white;
+    background-color: var(--color2);
+}
+
+/*responsive*/
+
+
+@media(max-width: 767px){
+    .footer-columns{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+    .footer-columns{
+        width: 100%;
+    }
+}
+
+.final-links{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-family: var(--font3);
+    font-size: 12px;
+}
+
+.copyright-paragraph{
+    margin: 50px 0px 0px 10px;
+    font-family: var(--font3);
+    font-size: 12px;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>MUNDO GEOPOLÍTICO</h1>
+        <p>O mundo explicado de uma maneira simples</p>
+    </header>
+    <nav id="navegation">
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Sobre Nós</a></li>
+             <li><a href="#">Loja</a></li>
+             <li><a href="#">Cursos</a></li>
+             <li><a href="#">Canal do Youtube</a></li>
+         </ul>
+    </nav>
+     
+    <main>
+        <article>
+             <section>
+                 <h1>A ASCENSÃO DOS ESTADOS UNIDOS COMO SUPERPOTÊNCIA GLOBAL</h1>
+
+                 
+                 <p>Nos anais da história mundial, os Estados Unidos figuram como um testemunho da narrativa extraordinária de uma nação que transcendeu suas origens modestas para emergir como uma superpotência global. A jornada americana, uma tapeçaria tecida com fios de resiliência e audácia, reflete uma interação sutil de forças históricas, poder econômico, proeza militar e alianças estratégicas. Essa transformação não foi um mero espetáculo noturno, mas uma dança intricada de eventos, um testemunho da adaptabilidade e determinação da nação. Ao embarcarmos nesta exploração, vamos desvendar as camadas da notável saga dos Estados Unidos e decifrar os fatores únicos que os impulsionaram ao topo da influência e poder global.</p>
+                 
+                 <p>Neste artigo, veremos a evolução dos Estados Unidos como uma superpotência global e como sua influência impactou o mundo inteiro. Mas antes disso, precisamos conhecer um pouco da história deste país para entender melhor esse processo de evolução. E se você quiser conhecer toda a história dos Estados Unidos, <a href="#">confira este artigo</a>. Então, vamos começar.</p>
+             </section>
+ 
+             <section>
+                 <h2>As primeiras fundações</h2>
+                 <figure>
+                     <img src="specialimages/thirteen-colonies.png" alt="Thirteen colonies">
+                     <small>
+                         <figcaption>As Treze Colônias em vermelho</figcaption>
+                     </small>
+                 </figure>
+                 <p>As sementes do poder americano foram plantadas durante o século XVIII, quando treze colônias britânicas na América do Norte buscaram independência. <a href="https://history-maps.com/pt/story/American-Revolutionary-War" target="_blank" rel="external">A Guerra Revolucionária Americana</a> (1775-1783) marcou o nascimento dos <strong>Estados Unidos</strong>, à medida que a nação nascente emergiu vitoriosa contra o poderoso Império Britânico. Os Pais Fundadores, munidos de ideais revolucionários, estabeleceram as bases para uma nova república, preparando o terreno para a ascensão da América.</p>
+                 
+                 <p>A Constituição dos Estados Unidos, adotada em 1787, estabeleceu o quadro para o governo federal. George Washington, o primeiro presidente, estabeleceu precedentes que moldaram a nação. A <a href="https://www.infoescola.com/historia/compra-da-louisiana-pelos-estados-unidos/" target="_blank" rel="external"> Compra da Louisiana</a> em 1803 e a expansão para o oeste impulsionaram o crescimento territorial.</p>
+                
+                <p>No entanto, <strong>a questão da escravidão desencadeou a Guerra Civil</strong> (1861-1865) entre a União do Norte e a Confederação do Sul. A vitória da União levou à abolição da escravidão, mas a era da Reconstrução enfrentou desafios na integração dos indivíduos anteriormente escravizados na sociedade.</p>
+             </section>
+ 
+             <section>
+                 <h2>Capacidade Econômica</h2>
+                 <figure>
+                     <img src="specialimages/industries-usa.jpg" alt="Industries in the U.S.A.">
+                     <small>
+                         <figcaption>Durante o final do século 19 e do século 20, a industrialização nos EUA cresceu bastante.</figcaption>
+                     </small>
+                 </figure>
+                     <p>O século XIX testemunhou os Estados Unidos expandindo-se rapidamente para o oeste, impulsionados pela ideia de <a href="https://brasilescola.uol.com.br/historia-da-america/destino-manifesto.htm#:~:text=O%20destino%20manifesto%20foi%20a,para%20a%20costa%20do%20Pac%C3%ADfico." target="_blank" rel="external">Destino Manifesto</a>. A industrialização se consolidou, transformando a América em uma potência econômica. <strong>A abundância de recursos naturais, aliada aos avanços tecnológicos, resultou no surgimento de indústrias como aço, ferrovias e petróleo</strong>. Ao virar do século XX, os EUA possuíam uma economia em ascensão, lançando as bases para sua futura influência global.</p>
+                     
+                     <p>Também no início do século XX, ocorreram reformas sociais e políticas destinadas a abordar questões como corrupção, desigualdade e direitos dos trabalhadores. As mulheres conquistaram o direito de voto com a 19ª Emenda em 1920.</p>
+             </section>
+ 
+                 <section>
+                     <h2>Poder Militar</h2>
+                     <figure>
+                         <img src="specialimages/usa-world-wars.jpg" alt="American soldiers with the flag of the U.S.A.">
+                         <small>
+                             <figcaption>Ao longo das 2 guerras mundiais o poderio militar dos Estados Unidos aumentou muito, inclusive ultrapassando os europeus.</figcaption>
+                         </small>
+                     </figure>
+                     <p>As duas Guerras Mundiais desempenharam um papel crucial na formação do destino dos Estados Unidos. Inicialmente hesitante em se envolver em assuntos globais, a devastação da Primeira Guerra Mundial e a agressão da Segunda Guerra Mundial compeliram os EUA a assumir um papel de liderança.<strong> O desenvolvimento de armas nucleares solidificou ainda mais sua proeza militar, tornando-o um jogador-chave na ordem mundial pós-guerra</strong>.</p>
+                     <p>O imperialismo americano, tanto político quanto econômico, desempenhou um papel crítico na moldagem da ordem mundial pós-guerra. O <ins>Plano Marshall</ins>, destinado a reconstruir a Europa devastada pela guerra, demonstrou a influência econômica e política americana em escala global.</p>
+                 </section>
+ 
+                 <section>
+                     <h2>A era da Guerra Fria</h2>
+                     <figure>
+                         <img src="specialimages/cold-war.jpg" alt="Flags of the U.S.S.R. and the U.S.A.">
+                         <small>
+                             <figcaption>Durante a Guerra Fria, o mundo estava dividido entre o bloco comunista e o bloco capitalista.</figcaption>
+                         </small>
+                     </figure>
+                     <p><strong>O período pós-Segunda Guerra Mundial marcou o início da Guerra Fria, uma luta geopolítica entre os EUA e a União Soviética</strong>. O Plano Marshall, destinado a reconstruir a Europa devastada pela guerra, destacou a generosidade econômica americana e solidificou alianças. Os EUA lideraram os esforços para conter a propagação do comunismo, projetando sua influência global por meio de alianças militares como a OTAN.</p>
+                     
+                     <p>A rivalidade da Guerra Fria com a União Soviética definiu a política externa dos EUA. Ao mesmo tempo, o Movimento pelos Direitos Civis buscou pôr fim à segregação racial e discriminação, resultando em legislações emblemáticas como o <a href="https://pt.wikipedia.org/wiki/Lei_dos_Direitos_Civis_de_1964" target="_blank" rel="external">Ato dos Direitos Civis de 1964</a>.</p>
+                     
+                     <p>Com a desintegração da União Soviética, a rivalidade ideológica e política entre os EUA e a URSS chegou ao fim. Os Estados Unidos emergiram como a única superpotência, sem um grande adversário geopolítico. Esse status recém-adquirido permitiu aos EUA exercer sua influência sem as restrições de uma luta ideológica global.</p>
+ 
+                     <p>O fim da Guerra Fria permitiu aos EUA exercer sua influência global por meio da diplomacia e organizações internacionais. Desempenhou um papel crucial na formatação de políticas econômicas globais e na abordagem de questões como as mudanças climáticas, solidificando sua posição como uma superpotência responsável.</p>
+                 </section>
+                     
+                 <section>
+                         <h2>Inovação tecnológica</h2>
+                         <figure>
+                             <img src="specialimages/silicon-valley-2.0.jpg" alt="Silicon Valley">
+                             <small>
+                                 <figcaption>O Vale do Silício é conhecido como um centro global de tecnologia e inovação.</figcaption>
+                             </small>
+                         </figure>
+                         
+                         <p>A partir da segunda metade do século XX testemunhou-se avanços tecnológicos sem precedentes. Os Estados Unidos tornaram-se um centro de inovação, com o <strong>Vale do Silício</strong> liderando a revolução digital. A <strong>corrida espacial</strong>, exemplificada pelo pouso na lua da Apollo em 1969, destacou a engenhosidade americana e a proeza tecnológica. A década de 1990 testemunhou uma expansão econômica robusta nos Estados Unidos, impulsionada por avanços tecnológicos e o <strong>surgimento da internet</strong>. A economia americana tornou-se uma força motriz da globalização, atraindo investimentos e facilitando a disseminação de produtos culturais americanos em todo o mundo. O modelo dos EUA de capitalismo de mercado livre ganhou ainda mais destaque como um sistema econômico aspiracional.</p>
+                         
+                         <p>Os Estados Unidos são um grande player no desenvolvimento de software, com empresas como <ins>Microsoft</ins>, <ins>Oracle</ins> e <ins>Adobe</ins> liderando o caminho. Sistemas operacionais como <ins>Windows</ins> e <ins>macOS</ins>, bem como software amplamente utilizado para produtividade e criação, têm origem nos Estados Unidos. Plataformas como <ins>Facebook</ins>, <ins>Twitter</ins> e <ins>Instagram</ins> também revolucionaram a comunicação e a interação social globalmente. Essas plataformas, juntamente com outras, têm suas origens nos Estados Unidos.</p>
+                         
+                         <p>De maneira geral, o cenário tecnológico dos EUA é caracterizado por uma cultura de inovação, colaboração entre academia e indústria, e um ecossistema robusto de startups e corporações estabelecidas. Avanços contínuos em vários domínios tecnológicos continuam a moldar o papel da nação como líder global em tecnologia.</p>
+                 </section>
+ 
+                 <section>
+                     <h2>Conclusão</h2>
+ 
+                     <p>A trajetória dos Estados Unidos, de um grupo de colônias a uma superpotência global, é um testemunho da resiliência, inovação e comprometimento da nação com valores democráticos. Ao navegarmos pelas complexidades do século XXI, compreender essa odisseia histórica é crucial para entender a dinâmica das relações internacionais e o papel que os Estados Unidos desempenham no palco mundial. Obviamente, há outros fatores que contribuíram para tornar os EUA o que são hoje, como <strong>influência cultural</strong>, <strong>diplomacia</strong>, <strong>participação em guerras</strong>, etc. Entretanto, decidi destacar os principais elementos. Espero que tenha gostado do artigo 😉👍.</p>
+                 </section>
+        </article>
+ 
+                 <hr>
+ 
+ 
+                <aside>
+                     <section>
+                         <h2>Saiba mais sobre os Estados Unidos</h2>
+                         
+                                             <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BShvYeyMm_Y?si=FkHXHuMApGsR8iRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                             </div>
+                     </section>
+                    
+                    
+                    
+                    <section class="links-sites">
+                        <h3>Links Relacionados:</h3>
+                            <ul>
+                        
+                                <li>
+                                    <a href="https://www.infoescola.com/historia/colonizacao-dos-estados-unidos-da-america/" target="_blank" rel="external"><strong>Como os EUA foram colonizados</strong></a>
+                                </li>
+                        
+                                <li>
+                                    <a href="hhttps://educacao.uol.com.br/disciplinas/geografia/industria-nos-eua-atividade-industrial-e-organizada-em-cinturoes.htm"><strong>A Indústria nos EUA</strong></a>
+                                </li>
+                        
+                                <li>
+                                    <a href="https://brasilescola.uol.com.br/guerras/china-x-eua.htm"><strong>China x EUA</strong></a>
+                                </li>
+                            </ul>
+                    </section>
+                </aside>
+             
+         
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                  <div class="footer-columns">
+                        <h4>Planos</h4>
+                    <!--column 1-->
+                        <ul>
+                            <li><a href="#">Soluções Estudantis</a></li>
+                            <li><a href="#">Soluções para professores</a></li>
+                            <li><a href="#">Study.com para Escolas</a></li>
+                            <li><a href="#">Soluções Working Scholars®</a></li>
+                            <li><a href="#">Tutoria Online</a></li>
+                        </ul>
+                  </div>
+
+                  <!--column 2-->
+                  <div class="footer-columns">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Ensine para nós</a></li>
+                        <li><a href="#">Centro de imprensa</a></li>
+                        <li><a href="#">Embaixador</a></li>
+                        <li><a href="#">Bolsas</a></li>
+                    </ul>
+                  </div>
+
+                  <!--column 3-->
+                  <div class="footer-columns">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Site Feedback</a></li>
+                        <li><a href="#">Denúncias</a></li>
+                    </ul>
+                 </div>
+                 
+                 <!--column 4-->
+               <div class="footer-columns">
+                <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+               </div>
+            
+            </div>
+        </div>
+
+        <small>
+            <p class="copyright-paragraph">© Copyright 2003-2024 Study.com. All other trademarks and copyrights are the property of their respective owners. All rights reserved.</p>
+        </small>
+        <small>
+            <p><a class="final-links" href="#">Terms of Use</a>   <a class="final-links" href="#">Privacy Policy</a>   <a class="final-links" href="#">DMCA Notice</a>    <a class="final-links" href="#">ADA Compliance</a>   <a class="final-links" href="#">Honor Code Students</a></p>
+        </small>
+    </footer>
+</body>
+</html>
